@@ -5,6 +5,8 @@ import Statevariable from "./Components/State/Statevariable"
 import SetStateMethod from "./Components/State/SetStatemethod"
 import Greet from "./Components/functionalComponent/Greet"
 import Functionalstatevariable from "./Components/functionalComponent/Functionalstatevariable"
+import DataPassing from "./Components/functionalComponent/DataPassing"
+import GetUserData from "./Components/functionalComponent/GetUserData"
 export class App extends React.Component {
   render() {
     return (
@@ -14,7 +16,9 @@ export class App extends React.Component {
         {/* <StateVariable/> */}
         {/* <SetStateMethod/> */}
         {/* <Greet/> */}
-        <Functionalstatevariable/>
+        {/* <Functionalstatevariable/> */}
+        {/* <DataPassing email="suprava@gmail.com"/> */}
+        <GetUserData/>
       </div>
     )
   }
