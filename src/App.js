@@ -7,6 +7,8 @@ import Greet from "./Components/functionalComponent/Greet"
 import Functionalstatevariable from "./Components/functionalComponent/Functionalstatevariable"
 import DataPassing from "./Components/functionalComponent/DataPassing"
 import GetUserData from "./Components/functionalComponent/GetUserData"
+import ArrayCode from "./Components/Array/ArrayCode"
+import ArrayOfObject from "./Components/Array/ArrayOfObject"
 export class App extends React.Component {
   render() {
     return (
@@ -18,7 +20,9 @@ export class App extends React.Component {
         {/* <Greet/> */}
         {/* <Functionalstatevariable/> */}
         {/* <DataPassing email="suprava@gmail.com"/> */}
-        <GetUserData/>
+        {/* <GetUserData/> */}
+        {/* <ArrayCode/> */}
+        <ArrayOfObject/>
       </div>
     )
   }
