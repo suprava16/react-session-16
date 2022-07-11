@@ -9,6 +9,8 @@ import DataPassing from "./Components/functionalComponent/DataPassing"
 import GetUserData from "./Components/functionalComponent/GetUserData"
 import ArrayCode from "./Components/Array/ArrayCode"
 import ArrayOfObject from "./Components/Array/ArrayOfObject"
+import ConditionalRendering from "./ConditionalRendering/conditionalRendering"
+import Main from "./Components/LifeCycle/Main"
 export class App extends React.Component {
   render() {
     return (
@@ -22,7 +24,9 @@ export class App extends React.Component {
         {/* <DataPassing email="suprava@gmail.com"/> */}
         {/* <GetUserData/> */}
         {/* <ArrayCode/> */}
-        <ArrayOfObject/>
+        {/* <ArrayOfObject/> */}
+        {/* <ConditionalRendering/> */}
+        <Main/>
       </div>
     )
   }
