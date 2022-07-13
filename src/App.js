@@ -11,6 +11,7 @@ import ArrayCode from "./Components/Array/ArrayCode"
 import ArrayOfObject from "./Components/Array/ArrayOfObject"
 import ConditionalRendering from "./ConditionalRendering/conditionalRendering"
 import Main from "./Components/LifeCycle/Main"
+import Fetch from "./Components/Api/Fetch"
 export class App extends React.Component {
   render() {
     return (
@@ -26,7 +27,8 @@ export class App extends React.Component {
         {/* <ArrayCode/> */}
         {/* <ArrayOfObject/> */}
         {/* <ConditionalRendering/> */}
-        <Main/>
+        {/* <Main/> */}
+        <Fetch/>
       </div>
     )
   }
