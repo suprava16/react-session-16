@@ -12,6 +12,8 @@ import ArrayOfObject from "./Components/Array/ArrayOfObject"
 import ConditionalRendering from "./ConditionalRendering/conditionalRendering"
 import Main from "./Components/LifeCycle/Main"
 import Fetch from "./Components/Api/Fetch"
+import PostMethod from "./Components/Api/PostMethod"
+import AxiosMethods from "./Components/Api/AxiosMethods"
 export class App extends React.Component {
   render() {
     return (
@@ -28,7 +30,9 @@ export class App extends React.Component {
         {/* <ArrayOfObject/> */}
         {/* <ConditionalRendering/> */}
         {/* <Main/> */}
-        <Fetch/>
+        {/* <Fetch/> */}
+        {/* <PostMethod/> */}
+        <AxiosMethods/>
       </div>
     )
   }

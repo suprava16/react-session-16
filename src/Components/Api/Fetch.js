@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import axios from "axios"
 
 export default class Fetch extends Component {
   constructor(){
@@ -8,14 +9,19 @@ export default class Fetch extends Component {
     }
   }
   componentDidMount(){
-    fetch("https://reqres.in/api/users?page=2")//forwarding request
-    .then((response)=>(response.json()))
+    // fetch("https://reqres.in/api/users?page=2")//forwarding request
+    // .then((response)=>(response.json()))
+    // .then((result)=>{
+    //   console.log(result)
+    //   this.setState({
+    //     user:result.data
+    //   })
+    // })
+    axios.get("https://reqres.in/api/users?page=2")
     .then((result)=>{
       console.log(result)
-      this.setState({
-        user:result.data
-      })
     })
+    
   }
   render() {
     return (
