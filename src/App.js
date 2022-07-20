@@ -14,6 +14,9 @@ import Main from "./Components/LifeCycle/Main"
 import Fetch from "./Components/Api/Fetch"
 import PostMethod from "./Components/Api/PostMethod"
 import AxiosMethods from "./Components/Api/AxiosMethods"
+// import UseEffectMethod from "./Components/Api/UseEffectMethod"
+import ParentCom from "./Components/UseContext.js/ParentCom"
+import MainDemo from "./Components/CallBack/MainDemo"
 export class App extends React.Component {
   render() {
     return (
@@ -32,7 +35,10 @@ export class App extends React.Component {
         {/* <Main/> */}
         {/* <Fetch/> */}
         {/* <PostMethod/> */}
-        <AxiosMethods/>
+        {/* <AxiosMethods/> */}
+        {/* <UseEffectMethod/> */}
+        {/* <ParentCom/> */}
+        <MainDemo/>
       </div>
     )
   }
