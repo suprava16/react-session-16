@@ -17,6 +17,7 @@ import AxiosMethods from "./Components/Api/AxiosMethods"
 // import UseEffectMethod from "./Components/Api/UseEffectMethod"
 import ParentCom from "./Components/UseContext.js/ParentCom"
 import MainDemo from "./Components/CallBack/MainDemo"
+import RouterCom from "./Components/RoutingComponents/RouterCom"
 export class App extends React.Component {
   render() {
     return (
@@ -38,7 +39,8 @@ export class App extends React.Component {
         {/* <AxiosMethods/> */}
         {/* <UseEffectMethod/> */}
         {/* <ParentCom/> */}
-        <MainDemo/>
+        {/* <MainDemo/> */}
+        <RouterCom/>
       </div>
     )
   }

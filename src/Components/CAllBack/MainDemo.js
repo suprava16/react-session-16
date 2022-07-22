@@ -8,14 +8,14 @@ function MainDemo() {
 
   const incrementAge=useCallback(()=>{
     setAge(age+1)
-  })
+  },[age])
 
   const incrementSalary=useCallback(()=>{
     setSalary(salary+1000)
-  })
+  },[salary])
   return (
     <div>
-      <Count text="age" count={age}/>
+      <Count text="age" count={age}></Count>
       <Button handleClick={incrementAge}>increment Age</Button>
       <Count text="salary" count={salary}/>
       <Button handleClick={incrementSalary}>increment Salary</Button>

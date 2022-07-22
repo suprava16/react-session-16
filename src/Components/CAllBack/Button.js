@@ -1,5 +1,4 @@
 import React from 'react'
-import PropsPassing from '../PropsPassing'
 
 function Button(props) {
   return (
